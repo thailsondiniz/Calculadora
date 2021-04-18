@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo do fundo da page e cores de font*/
+.fundo{
+    background-color:#343434;
+    height:100vh;
+    color:#fff;
+    font-family:'ubuntu',sans-serif;
+}
+/*Interface da calculadora*/
+.calculadora{
+    position:absolute;
+    background-color:rgb(179, 118, 236);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:15px;
+    padding:15px;
+}
+/*Estilo dos botoes*/
+.botao{
+    width:50px;
+    height:50px;
+    font-size:25px;
+    margin:2px;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    border-radius:5px;
+}
+/*hover dos botoes*/
+.botao:hover{
+    background-color:rgb(172, 172, 172);
+}
+/*h1 centralizando h1*/
+h1{
+    text-align:center;
+}
+/*Estilo da tela do resultado*/
+#resultado{
+    width:207px;
+    height:30px;
+    margin:5px;
+    background-color:#fff;
+    font-size:25px;
+    color:#000;
+    text-align:right;
+    padding:5px;
+    border-radius:5px;
+}
